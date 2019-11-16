@@ -17,10 +17,7 @@
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://dimasaf.github.io/posts/2019/11/arduino-pt.1/</guid>
-      <description>TIPE DATA ARDUINO
-VARIABLE Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimpan suatu nilai. Variabel yang digunakan harus ditentukan juga tipe datanya.
- Cara mendeklarasikan sebuah variabel
-#bentuk umum Nama_tipe nama_variabel ; #contoh mendeklarasikan nama variable &amp;#39;led&amp;#39; di pin 8 define led 8;  STRING String adalah tipe data yang digunakan untuk sebuah teks yang merupakan gabungan huruf, angka, whitespace (spasi), dan berbagai karakter. Fungsi ini digunakan untuk membuat identifier String/teks.</description>
+      <description></description>
     </item>
     
     <item>

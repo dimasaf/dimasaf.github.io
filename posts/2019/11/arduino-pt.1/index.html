@@ -7,7 +7,10 @@
 <meta name="author"
     content="Dimas Af">
 <meta name="description"
-    content="" />
+    content="TIPE DATA ARDUINO
+VARIABLE Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimpan suatu nilai. Variabel yang digunakan harus ditentukan juga tipe datanya.
+ Cara mendeklarasikan sebuah variabel
+#bentuk umum Nama_tipe nama_variabel ; #contoh mendeklarasikan nama variable &amp;#39;led&amp;#39; di pin 8 define led 8;  STRING String adalah tipe data yang digunakan untuk sebuah teks yang merupakan gabungan huruf, angka, whitespace (spasi), dan berbagai karakter. Fungsi ini digunakan untuk membuat identifier String/teks." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://dimasaf.github.io/posts/2019/11/arduino-pt.1/" />
@@ -31,12 +34,15 @@
 
 
 <meta itemprop="name" content="Arduino Pt.1">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="TIPE DATA ARDUINO
+VARIABLE Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimpan suatu nilai. Variabel yang digunakan harus ditentukan juga tipe datanya.
+ Cara mendeklarasikan sebuah variabel
+#bentuk umum Nama_tipe nama_variabel ; #contoh mendeklarasikan nama variable &#39;led&#39; di pin 8 define led 8;  STRING String adalah tipe data yang digunakan untuk sebuah teks yang merupakan gabungan huruf, angka, whitespace (spasi), dan berbagai karakter. Fungsi ini digunakan untuk membuat identifier String/teks.">
 
 
 <meta itemprop="datePublished" content="2019-11-10T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-11-10T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="333">
 
 
 
@@ -45,7 +51,10 @@
 <meta name="twitter:image" content="https://dimasaf.github.io"/>
 
 <meta name="twitter:title" content="Arduino Pt.1"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="TIPE DATA ARDUINO
+VARIABLE Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimpan suatu nilai. Variabel yang digunakan harus ditentukan juga tipe datanya.
+ Cara mendeklarasikan sebuah variabel
+#bentuk umum Nama_tipe nama_variabel ; #contoh mendeklarasikan nama variable &#39;led&#39; di pin 8 define led 8;  STRING String adalah tipe data yang digunakan untuk sebuah teks yang merupakan gabungan huruf, angka, whitespace (spasi), dan berbagai karakter. Fungsi ini digunakan untuk membuat identifier String/teks."/>
 
 
 
@@ -106,7 +115,7 @@
     <main class="post">
 
         <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>0 minutes
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
 
             
 
@@ -120,6 +129,114 @@
 
             <div class="post-content">
                 
+
+<p>TIPE DATA ARDUINO</p>
+
+<h2 id="variable">VARIABLE</h2>
+
+<p>Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimpan suatu nilai. Variabel yang digunakan harus ditentukan juga tipe datanya.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan sebuah variabel</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#bentuk umum</span>
+Nama_tipe nama_variabel <span class="p">;</span>
+<span class="c1">#contoh mendeklarasikan nama variable &#39;led&#39; di pin 8</span>
+define led  <span class="m">8</span><span class="p">;</span></code></pre></div></li>
+</ul>
+
+<h2 id="string">STRING</h2>
+
+<p>String adalah tipe data yang digunakan untuk sebuah teks yang merupakan gabungan huruf, angka, whitespace (spasi), dan berbagai karakter. Fungsi ini digunakan untuk membuat identifier String/teks.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan String</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data string dengan identifier coba</span>
+String <span class="nv">coba</span> <span class="o">=</span> <span class="s2">&#34;Hello String&#34;</span><span class="p">;</span>  </code></pre></div></li>
+</ul>
+
+<h2 id="int">INT</h2>
+
+<p>Integer digunakan untuk menyimpan angka, Tipe data ini menyimpan nilai 16-bit (2 byte) dengan rentang ukuran -32,768 sampai 32,767.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan int</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data int dengan identifier coba</span>
+int <span class="nv">penambah</span> <span class="o">=</span> <span class="m">0</span><span class="p">;</span></code></pre></div></li>
+</ul>
+
+<h2 id="unsigned-int">UNSIGNED INT</h2>
+
+<p>Tipe data ini hampir sama dengan int. bedanya Unsigned int tidak menyimpan nilai negatif. Rentang ukuran 0 sampai 65,535.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan int</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data unsigned int dengan identifier y</span>
+unsigned int <span class="nv">y</span> <span class="o">=</span> <span class="m">10</span><span class="p">;</span></code></pre></div></li>
+</ul>
+
+<h2 id="long">LONG</h2>
+
+<p>Long digunakan untuk menyimpan angka, mempunyai ukuran yang lebih banyak dan menyimpan 32-bit (4 byte) dari -2,147,438,648 sampai 2,147,438,647.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan long</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data long dengan identifier jarak</span>
+long <span class="nv">jarak</span> <span class="o">=</span> <span class="m">222123420</span><span class="p">;</span></code></pre></div></li>
+</ul>
+
+<h2 id="float-double">FLOAT / DOUBLE</h2>
+
+<p>Float merupakan tipe data yang menyimpan angka yang memiliki nilai desimal.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan long</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data float dengan identifier sensorSuhu</span>
+float <span class="nv">sensorSuhu</span> <span class="o">=</span> <span class="m">1</span>.117<span class="p">;</span></code></pre></div></li>
+</ul>
+
+<h2 id="bool">BOOL</h2>
+
+<p>Tipe data bool memiliki salah satu dari dua nilai, yaitu true atau false.</p>
+
+<ul>
+<li><p>Cara mendeklarasikan bool</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data bool dengan identifier hidup</span>
+bool <span class="nv">hidup</span> <span class="o">=</span> falsel</code></pre></div></li>
+</ul>
+
+<h2 id="char">CHAR</h2>
+
+<p>Tipe data yang digunakan untuk menyimpan karakter. biasanya karakter ditulis dalam tanda kutip tunggal, seperti ini: &lsquo;A&rsquo;</p>
+
+<ul>
+<li><p>Cara mendeklarasikan char</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data char dengan identifier tes</span>
+char <span class="nv">tes</span> <span class="o">=</span> <span class="s1">&#39;A&#39;</span></code></pre></div></li>
+</ul>
+
+<h2 id="byte">BYTE</h2>
+
+<p>Byte menyimpan 8-bit unsigned number, dari 0 sampai 255</p>
+
+<ul>
+<li><p>Cara mendeklarasikan char</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#tipe data byte dengan identifier terang</span>
+byte <span class="nv">terang</span> <span class="o">=</span> <span class="m">255</span><span class="p">;</span></code></pre></div></li>
+</ul>
+
+<h1 id="array">ARRAY</h1>
+
+<p>Array adalah sekumpulan variabel yang dapat diakses dengan nomor indeks</p>
+
+<ul>
+<li><p>Cara mendeklarasikan array</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#contoh penulisan array</span>
+int myInts<span class="o">[</span><span class="m">6</span><span class="o">]</span><span class="p">;</span>
+int myPins<span class="o">[]</span> <span class="o">=</span> <span class="o">{</span><span class="m">2</span>, <span class="m">4</span>, <span class="m">8</span>, <span class="m">3</span>, <span class="m">6</span><span class="o">}</span><span class="p">;</span>
+int mySensVals<span class="o">[</span><span class="m">6</span><span class="o">]</span> <span class="o">=</span> <span class="o">{</span><span class="m">2</span>, <span class="m">4</span>, -8, <span class="m">3</span>, <span class="m">2</span><span class="o">}</span><span class="p">;</span>
+char message<span class="o">[</span><span class="m">6</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&#34;hello&#34;</span><span class="p">;</span></code></pre></div></li>
+</ul>
+
             </div>
         </article>
 
@@ -127,7 +244,7 @@
 
         <div class="post-info">
 
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>0 Words</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>333 Words</p>
 
             <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-11-10 07:00 &#43;0700</p>
         </div>
