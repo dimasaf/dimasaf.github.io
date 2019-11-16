@@ -1,15 +1,104 @@
 ---
-title: "My Development Environment"
+title: "Arduino Pt.1"
 date: 2019-11-10
 author: "Dimas Af"
 comments: true
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nibh mauris cursus mattis. Eu scelerisque felis imperdiet proin fermentum leo vel. Cursus mattis molestie a iaculis at erat. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Viverra aliquet eget sit amet tellus cras. Neque sodales ut etiam sit amet nisl. Suscipit adipiscing bibendum est ultricies integer quis auctor. Fames ac turpis egestas integer eget aliquet. Ante in nibh mauris cursus mattis. Ornare quam viverra orci sagittis. Dolor sit amet consectetur adipiscing. Erat pellentesque adipiscing commodo elit at imperdiet. Fringilla ut morbi tincidunt augue interdum velit euismod in. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
 
-Feugiat sed lectus vestibulum mattis. Arcu cursus vitae congue mauris rhoncus aenean vel. Eleifend quam adipiscing vitae proin. Nam libero justo laoreet sit amet cursus sit amet. Risus commodo viverra maecenas accumsan lacus. Amet facilisis magna etiam tempor orci eu lobortis elementum. Proin nibh nisl condimentum id venenatis a. Etiam sit amet nisl purus in mollis nunc sed. Tincidunt id aliquet risus feugiat in ante metus dictum. Ut venenatis tellus in metus vulputate eu scelerisque felis. Tortor vitae purus faucibus ornare suspendisse sed nisi. Scelerisque felis imperdiet proin fermentum leo vel orci porta non.
+TIPE DATA ARDUINO
 
-Tristique nulla aliquet enim tortor at auctor urna nunc. Neque sodales ut etiam sit amet nisl purus in mollis. Pellentesque eu tincidunt tortor aliquam. Tempor id eu nisl nunc mi ipsum. Iaculis nunc sed augue lacus viverra vitae congue eu. Aliquam sem fringilla ut morbi tincidunt. Mauris commodo quis imperdiet massa tincidunt nunc. At consectetur lorem donec massa sapien faucibus et molestie. Pulvinar sapien et ligula ullamcorper malesuada proin libero. Felis eget velit aliquet sagittis id consectetur. Ac odio tempor orci dapibus ultrices in iaculis nunc. Mauris nunc congue nisi vitae suscipit tellus mauris. Risus ultricies tristique nulla aliquet. Consequat nisl vel pretium lectus quam. Egestas tellus rutrum tellus pellentesque eu tincidunt. In ante metus dictum at tempor commodo ullamcorper.
+## VARIABLE
+Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimpan suatu nilai. Variabel yang digunakan harus ditentukan juga tipe datanya.
 
-Dui vivamus arcu felis bibendum ut tristique et. Nibh mauris cursus mattis molestie a iaculis at. Ac auctor augue mauris augue neque. In metus vulputate eu scelerisque felis imperdiet proin. Nec ultrices dui sapien eget mi proin sed. Sed vulputate odio ut enim. Maecenas sed enim ut sem viverra aliquet eget sit. Duis at consectetur lorem donec massa sapien. Pellentesque habitant morbi tristique senectus. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Lacus suspendisse faucibus interdum posuere lorem ipsum. Vel facilisis volutpat est velit egestas dui.
++ Cara mendeklarasikan sebuah variabel
+```bash
+#bentuk umum
+Nama_tipe nama_variabel ;
+#contoh mendeklarasikan nama variable 'led' di pin 8
+define led  8;
+```
 
-Egestas tellus rutrum tellus pellentesque eu. Etiam tempor orci eu lobortis elementum nibh tellus molestie. Eget dolor morbi non arcu risus quis varius quam quisque. Nunc consequat interdum varius sit amet mattis vulputate enim. Morbi tristique senectus et netus et malesuada fames ac. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Mattis vulputate enim nulla aliquet porttitor lacus. Quam quisque id diam vel quam elementum pulvinar etiam non. Quis viverra nibh cras pulvinar mattis. Purus faucibus ornare suspendisse sed nisi. Elit sed vulputate mi sit. Aliquam etiam erat velit scelerisque in dictum non. Amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Tellus cras adipiscing enim eu turpis egestas pretium aenean. Lectus mauris ultrices eros in cursus turpis massa tincidunt. In massa tempor nec feugiat nisl pretium fusce. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Tristique magna sit amet purus gravida quis blandit. Donec enim diam vulputate ut pharetra sit amet aliquam id.
+## STRING
+String adalah tipe data yang digunakan untuk sebuah teks yang merupakan gabungan huruf, angka, whitespace (spasi), dan berbagai karakter. Fungsi ini digunakan untuk membuat identifier String/teks.
+
++ Cara mendeklarasikan String
+```bash
+#tipe data string dengan identifier coba
+String coba = "Hello String";  
+```
+
+## INT
+Integer digunakan untuk menyimpan angka, Tipe data ini menyimpan nilai 16-bit (2 byte) dengan rentang ukuran -32,768 sampai 32,767. 
+
++ Cara mendeklarasikan int
+```bash
+#tipe data int dengan identifier coba
+int penambah = 0;
+```
+
+## UNSIGNED INT
+Tipe data ini hampir sama dengan int. bedanya Unsigned int tidak menyimpan nilai negatif. Rentang ukuran 0 sampai 65,535.
+
++ Cara mendeklarasikan int
+```bash
+#tipe data unsigned int dengan identifier y
+unsigned int y = 10;
+```
+
+## LONG
+Long digunakan untuk menyimpan angka, mempunyai ukuran yang lebih banyak dan menyimpan 32-bit (4 byte) dari -2,147,438,648 sampai 2,147,438,647.
+
++ Cara mendeklarasikan long
+```bash
+#tipe data long dengan identifier jarak
+long jarak = 222123420;
+```
+
+## FLOAT / DOUBLE
+Float merupakan tipe data yang menyimpan angka yang memiliki nilai desimal.
+
++ Cara mendeklarasikan long
+```bash
+#tipe data float dengan identifier sensorSuhu
+float sensorSuhu = 1.117;
+```
+
+## BOOL
+Tipe data bool memiliki salah satu dari dua nilai, yaitu true atau false.
+
++ Cara mendeklarasikan bool
+```bash
+#tipe data bool dengan identifier hidup
+bool hidup = falsel
+```
+
+## CHAR
+Tipe data yang digunakan untuk menyimpan karakter. biasanya karakter ditulis dalam tanda kutip tunggal, seperti ini: 'A'
+
++ Cara mendeklarasikan char
+```bash
+#tipe data char dengan identifier tes
+char tes = 'A'
+```
+
+## BYTE
+Byte menyimpan 8-bit unsigned number, dari 0 sampai 255
+
++ Cara mendeklarasikan char
+```bash
+#tipe data byte dengan identifier terang
+byte terang = 255;
+```
+
+# ARRAY
+Array adalah sekumpulan variabel yang dapat diakses dengan nomor indeks
+
+
++ Cara mendeklarasikan array
+```bash
+#contoh penulisan array
+int myInts[6];
+int myPins[] = {2, 4, 8, 3, 6};
+int mySensVals[6] = {2, 4, -8, 3, 2};
+char message[6] = "hello";
+```
