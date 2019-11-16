@@ -102,3 +102,5 @@ int myPins[] = {2, 4, 8, 3, 6};
 int mySensVals[6] = {2, 4, -8, 3, 2};
 char message[6] = "hello";
 ```
+
+untuk informasi lebih jelas 'https://www.arduino.cc/reference/'
