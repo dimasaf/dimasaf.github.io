@@ -131,5 +131,149 @@ char message<span class="o">[</span><span class="m">6</span><span class="o">]</s
 ]]></content>
         </item>
         
+        <item>
+            <title>Linux Chapt. 1</title>
+            <link>https://dimasaf.github.io/posts/2019/11/linux-chapt.-1/</link>
+            <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+            
+            <guid>https://dimasaf.github.io/posts/2019/11/linux-chapt.-1/</guid>
+            <description>Istilah-istilah UNIX = sistem operasi pertama yang ditulis dengan bahasa C
+LINUX = inux adalah sistem operasi yang berasal dari pengembangan varian Unix
+**GPL** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.
+GNU = suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)
+KERNEL =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&amp;rdquo; lain.</description>
+            <content type="html"><![CDATA[
+
+<h1 id="istilah-istilah">Istilah-istilah</h1>
+
+<p><strong>UNIX</strong> = sistem operasi pertama yang ditulis dengan bahasa C</p>
+
+<p><strong>LINUX</strong> = inux adalah sistem operasi yang berasal dari pengembangan varian Unix</p>
+
+<p><a href="https://yosinovitablc.wordpress.com/2017/06/29/pengertian-gnu-dan-gpl/" target="_blank">**GPL</a>** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.</p>
+
+<p><a href="https://yosinovitablc.wordpress.com/2017/06/29/pengertian-gnu-dan-gpl/" target="_blank"><strong>GNU</strong> =</a>  suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)</p>
+
+<p><strong>KERNEL</strong> =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&rdquo; lain. linux sendiri menggunakan kernel GNU/LINUX</p>
+
+<p><strong>CLI</strong> = COMMAND LINE INTERFACE</p>
+
+<p><strong>GUI</strong> = GRAPHICAL USER INTERFACE</p>
+
+<p><strong>SHELL</strong>  = sebuah program (CLI) yang berinteraksi langsung dengan user</p>
+
+<p><strong>DISTRO</strong> = varian dari linux</p>
+
+<p><strong>nano, vim, gedit</strong> = merupakan text editor/notepad yang ada pada linux</p>
+
+<p><strong>VIRTUAL MACHINE</strong> = sebuah mesin virtual untuk menjalankan os</p>
+
+<p><strong>REPOSITORI</strong> = kumpulan software khusus untuk Linux yang kita gunakan, dan hanya tersedia di server.</p>
+
+<h2 id="keyboard-shortcut-terminal">Keyboard Shortcut Terminal</h2>
+
+<pre><code>CTRL + C
+</code></pre>
+
+<p>menghentikan proses</p>
+
+<pre><code>CTRL + L
+</code></pre>
+
+<p>membersihkan layar</p>
+
+<pre><code>CTRL + A
+</code></pre>
+
+<p>cursor pindah ke awal</p>
+
+<pre><code>CTRL + E
+</code></pre>
+
+<p>cursor pindah ke akhir text</p>
+
+<pre><code>CTRL + SHIFT + C
+</code></pre>
+
+<p>copy</p>
+
+<pre><code>CTRL + SHIFT + V
+</code></pre>
+
+<p>paste</p>
+
+<h2 id="command-dasar">Command <em><code>dasar</code></em></h2>
+
+<p>perintah dasar yang akan sering di pakai di linux. jadi kamu bakal sering menggunakan keyboard dan semua perintah harus di ketik seperti <em>membuat folder, meng-copy file, menghapus file dan bahkan menginstall aplikasi menggunakan perintah yang harus di ketik.</em></p>
+
+<p><strong>cd *(Change Direktori)</strong>*</p>
+
+<p><em>berbindah Direktori ke  Downloads</em></p>
+
+<pre><code>$ cd /home/Downloads/
+</code></pre>
+
+<p><code>direktori yang dimaksud disini ialah folder</code></p>
+
+<p><strong>pwd (Print Working Direktori)</strong></p>
+
+<pre><code>$ pwd
+</code></pre>
+
+<p><strong>ls (List)</strong></p>
+
+<pre><code>$ ls
+</code></pre>
+
+<p><code>menampilkan isi yang ada pada direktori saat ini</code></p>
+
+<p><strong>mkdir (Make Directory)</strong></p>
+
+<pre><code>$ mkdir belajar
+</code></pre>
+
+<p><code>membuat direktori dengan nama belajar</code></p>
+
+<p><strong>touch</strong></p>
+
+<pre><code>$ touch isi.txt
+</code></pre>
+
+<p><code>membuat file dengan nama isi.txt</code></p>
+
+<p><strong>cp (Copy)</strong></p>
+
+<pre><code>$ cp isi.txt /home/
+</code></pre>
+
+<p><code>meng copy file*isi.txt*ke direktori*home*</code></p>
+
+<p><strong>mv (Move)</strong></p>
+
+<pre><code>$ mv isi.txt /home/
+</code></pre>
+
+<p><code>memindahkan file*isi.txt*ke direktori*home*</code></p>
+
+<p><strong>rm (Remove)</strong></p>
+
+<pre><code>$ rm isi.txt
+</code></pre>
+
+<p><code>menghapus file*isi.txt*</code></p>
+
+<p><strong>rm -rf (Remove direktori beserta isinya)</strong></p>
+
+<pre><code>$ rm -rf /belajar/
+</code></pre>
+
+<p><code>menghapus direktori belajar dan isinya</code></p>
+
+<p>SUMBER</p>
+
+<p><a href="https://www.belajarlinux.org/belajar-linux-untuk-pemula/sejarah-perkembangan-linux-dari-masa-ke-masa/" target="_blank">https://www.belajarlinux.org/belajar-linux-untuk-pemula/sejarah-perkembangan-linux-dari-masa-ke-masa/</a></p>
+]]></content>
+        </item>
+        
     </channel>
 </rss>

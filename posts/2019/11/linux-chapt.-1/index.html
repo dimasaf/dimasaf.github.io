@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Dimas Af">
+<meta name="description"
+    content="Istilah-istilah UNIX = sistem operasi pertama yang ditulis dengan bahasa C
+LINUX = inux adalah sistem operasi yang berasal dari pengembangan varian Unix
+**GPL** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.
+GNU = suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)
+KERNEL =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&amp;rdquo; lain." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://dimasaf.github.io/posts/2019/11/linux-chapt.-1/" />
+
+
+<title>
+    
+    Linux Chapt. 1 :: dimas adji firmana  — A simpe note for m
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://dimasaf.github.io/main.min.7bfbbe12786fa0ded4b4c0d792cbb36a5bd0bdb0b856dde57aa7b1f6fe0f2b87.css">
+
+
+
+<meta itemprop="name" content="Linux Chapt. 1">
+<meta itemprop="description" content="Istilah-istilah UNIX = sistem operasi pertama yang ditulis dengan bahasa C
+LINUX = inux adalah sistem operasi yang berasal dari pengembangan varian Unix
+**GPL** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.
+GNU = suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)
+KERNEL =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&rdquo; lain.">
+
+
+<meta itemprop="datePublished" content="2019-11-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="314">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dimasaf.github.io"/>
+
+<meta name="twitter:title" content="Linux Chapt. 1"/>
+<meta name="twitter:description" content="Istilah-istilah UNIX = sistem operasi pertama yang ditulis dengan bahasa C
+LINUX = inux adalah sistem operasi yang berasal dari pengembangan varian Unix
+**GPL** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.
+GNU = suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)
+KERNEL =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&rdquo; lain."/>
+
+
+
+
+<meta property="article:published_time" content="2019-11-10 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://dimasaf.github.io/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">_  dimasaf | blog</span>
+            <span class="logo__cursor" style=""></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://dimasaf.github.io/about/">About</a></li><li><a href="https://dimasaf.github.io/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="https://dimasaf.github.io/posts/2019/11/linux-chapt.-1/">Linux Chapt. 1</a></h1>
+
+            
+
+            <div class="post-content">
+                
+
+<h1 id="istilah-istilah">Istilah-istilah</h1>
+
+<p><strong>UNIX</strong> = sistem operasi pertama yang ditulis dengan bahasa C</p>
+
+<p><strong>LINUX</strong> = inux adalah sistem operasi yang berasal dari pengembangan varian Unix</p>
+
+<p><a href="https://yosinovitablc.wordpress.com/2017/06/29/pengertian-gnu-dan-gpl/" target="_blank">**GPL</a>** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.</p>
+
+<p><a href="https://yosinovitablc.wordpress.com/2017/06/29/pengertian-gnu-dan-gpl/" target="_blank"><strong>GNU</strong> =</a>  suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)</p>
+
+<p><strong>KERNEL</strong> =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&rdquo; lain. linux sendiri menggunakan kernel GNU/LINUX</p>
+
+<p><strong>CLI</strong> = COMMAND LINE INTERFACE</p>
+
+<p><strong>GUI</strong> = GRAPHICAL USER INTERFACE</p>
+
+<p><strong>SHELL</strong>  = sebuah program (CLI) yang berinteraksi langsung dengan user</p>
+
+<p><strong>DISTRO</strong> = varian dari linux</p>
+
+<p><strong>nano, vim, gedit</strong> = merupakan text editor/notepad yang ada pada linux</p>
+
+<p><strong>VIRTUAL MACHINE</strong> = sebuah mesin virtual untuk menjalankan os</p>
+
+<p><strong>REPOSITORI</strong> = kumpulan software khusus untuk Linux yang kita gunakan, dan hanya tersedia di server.</p>
+
+<h2 id="keyboard-shortcut-terminal">Keyboard Shortcut Terminal</h2>
+
+<pre><code>CTRL + C
+</code></pre>
+
+<p>menghentikan proses</p>
+
+<pre><code>CTRL + L
+</code></pre>
+
+<p>membersihkan layar</p>
+
+<pre><code>CTRL + A
+</code></pre>
+
+<p>cursor pindah ke awal</p>
+
+<pre><code>CTRL + E
+</code></pre>
+
+<p>cursor pindah ke akhir text</p>
+
+<pre><code>CTRL + SHIFT + C
+</code></pre>
+
+<p>copy</p>
+
+<pre><code>CTRL + SHIFT + V
+</code></pre>
+
+<p>paste</p>
+
+<h2 id="command-dasar">Command <em><code>dasar</code></em></h2>
+
+<p>perintah dasar yang akan sering di pakai di linux. jadi kamu bakal sering menggunakan keyboard dan semua perintah harus di ketik seperti <em>membuat folder, meng-copy file, menghapus file dan bahkan menginstall aplikasi menggunakan perintah yang harus di ketik.</em></p>
+
+<p><strong>cd *(Change Direktori)</strong>*</p>
+
+<p><em>berbindah Direktori ke  Downloads</em></p>
+
+<pre><code>$ cd /home/Downloads/
+</code></pre>
+
+<p><code>direktori yang dimaksud disini ialah folder</code></p>
+
+<p><strong>pwd (Print Working Direktori)</strong></p>
+
+<pre><code>$ pwd
+</code></pre>
+
+<p><strong>ls (List)</strong></p>
+
+<pre><code>$ ls
+</code></pre>
+
+<p><code>menampilkan isi yang ada pada direktori saat ini</code></p>
+
+<p><strong>mkdir (Make Directory)</strong></p>
+
+<pre><code>$ mkdir belajar
+</code></pre>
+
+<p><code>membuat direktori dengan nama belajar</code></p>
+
+<p><strong>touch</strong></p>
+
+<pre><code>$ touch isi.txt
+</code></pre>
+
+<p><code>membuat file dengan nama isi.txt</code></p>
+
+<p><strong>cp (Copy)</strong></p>
+
+<pre><code>$ cp isi.txt /home/
+</code></pre>
+
+<p><code>meng copy file*isi.txt*ke direktori*home*</code></p>
+
+<p><strong>mv (Move)</strong></p>
+
+<pre><code>$ mv isi.txt /home/
+</code></pre>
+
+<p><code>memindahkan file*isi.txt*ke direktori*home*</code></p>
+
+<p><strong>rm (Remove)</strong></p>
+
+<pre><code>$ rm isi.txt
+</code></pre>
+
+<p><code>menghapus file*isi.txt*</code></p>
+
+<p><strong>rm -rf (Remove direktori beserta isinya)</strong></p>
+
+<pre><code>$ rm -rf /belajar/
+</code></pre>
+
+<p><code>menghapus direktori belajar dan isinya</code></p>
+
+<p>SUMBER</p>
+
+<p><a href="https://www.belajarlinux.org/belajar-linux-untuk-pemula/sejarah-perkembangan-linux-dari-masa-ke-masa/" target="_blank">https://www.belajarlinux.org/belajar-linux-untuk-pemula/sejarah-perkembangan-linux-dari-masa-ke-masa/</a></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>314 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-11-10 07:00 &#43;0700</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="https://dimasaf.github.io/posts/2019/11/arduino-pt.1/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Arduino Pt.1</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                </div>
+            </div>
+        
+
+        
+          <div id="comments" class="thin">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "dimasaf" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+            
+                <span><a href="https://dimasaf.github.io">Dimas Af</a></span>
+            
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span> <a href="https://dimasaf.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://dimasaf.github.io/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-143647162-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+    </body>
+</html>

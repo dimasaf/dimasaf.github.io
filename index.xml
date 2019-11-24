@@ -24,6 +24,19 @@ VARIABLE Variabel merupakan suatu pengenal (identifier) atau wadah untuk menyimp
     </item>
     
     <item>
+      <title>Linux Chapt. 1</title>
+      <link>https://dimasaf.github.io/posts/2019/11/linux-chapt.-1/</link>
+      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dimasaf.github.io/posts/2019/11/linux-chapt.-1/</guid>
+      <description>Istilah-istilah UNIX = sistem operasi pertama yang ditulis dengan bahasa C
+LINUX = inux adalah sistem operasi yang berasal dari pengembangan varian Unix
+**GPL** = GPL adalah Lisensi dari perangkat lunak bebas tersebut.
+GNU = suatu sistem perangkat lunak komputer (Software) sepenuhnya terdiridari perangkat lunak bebas (Freeware)
+KERNEL =inti dari sebuah OS yang menjembatani antara hardware dengan software. kernel tidak berinteraksi langsung dengan pengguna, tapi cenderung berinteraksi dengan shell atau program&amp;rdquo; lain.</description>
+    </item>
+    
+    <item>
       <title>TES KONTEN</title>
       <link>https://dimasaf.github.io/contoh_konten/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
